@@ -1,0 +1,135 @@
+/* ===== Global Body Styles ===== */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+
+  /* Background gradient for page */
+  background: linear-gradient(to bottom, #6e4e73, #b79abb);
+  background-size: cover;                       
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* ===== Main Section (outer card background) ===== */
+.main {
+  background-color: #7e5984;
+  padding-bottom: 20px;
+  margin: auto;
+  border-radius: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 290px;
+  height: 420px;
+  text-align: center;
+  align-items: center;
+}
+
+/* ===== Inner Container (main card) ===== */
+.Container {
+  background-color: #523956;
+  padding: 20px;
+  border-radius: 30px;
+  width: 250px;
+  height: 390px;
+  text-align: center;
+  align-items: center;
+}
+
+/* ===== Profile Image ===== */
+.profile {
+  width: 90px;             
+  height: 90px;             
+  object-fit: cover;        
+  border-radius: 50%;       /* Makes the image circular */
+  display: block;           
+  margin: 0 auto 10px auto; 
+  border: 1px solid #ccc;
+  padding: 2px;
+}
+
+/* ===== Main Text Section ===== */
+.maininformation {
+  color: rgb(225, 223, 223);
+}
+
+/* ===== Heading (Name) ===== */
+h3 {
+  margin-bottom: 0px;
+  font-family: 'Poppins';
+  font-weight: 700; 
+}
+
+/* ===== Paragraphs (General) ===== */
+p {
+  margin-top: 10px;
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: 300; 
+}
+
+/* ===== Skills Paragraph ===== */
+.p2 {
+  font-size: 10px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  font-family: 'Source Code Pro';
+  font-weight: 400; 
+}
+
+/* ===== Description Paragraph ===== */
+.p3 {
+  margin-bottom: 30px;
+  font-size: 13px;
+  font-family: 'Open Sans';
+  font-weight: 400; 
+}
+
+/* ===== Email Link Styling ===== */
+.gmail {
+  font-size: 15px;
+  background-color: #dbc7e0;
+  color: rgb(70, 32, 66);
+  padding: 5px 5px;
+  border-radius: 15px;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-bottom: 25px;
+  font-family: 'Nunito';
+  font-weight: 500; 
+
+  /* GPU optimization */
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+/* ===== Email Hover Effect ===== */
+.gmail:hover {
+  transform: scale(1.02) translateZ(0);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+/* ===== Social Icons Container ===== */
+.contact {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  justify-content: center; 
+  padding: 20px 0;
+}
+
+/* ===== Social Icons Style ===== */
+.contact a img {
+  width: 25px;
+  height: 25px;
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+/* ===== Social Icons Hover Effect ===== */
+.contact a:hover img {
+  transform: scale(1.1);
+}

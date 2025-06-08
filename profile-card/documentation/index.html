@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Personal Webpage - Documentation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+      max-width: 900px;
+      margin: auto;
+      padding: 40px;
+      color: #333;
+    }
+    code {
+      background: #f3f3f3;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    h1, h2 {
+      color: #222;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #ddd;
+      margin: 40px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>📄 Personal Webpage - Documentation</h1>
+
+  <h2>📘 About the Project</h2>
+  <p>This is a simple personal webpage showing your name, job title, skills, profile picture, email, and social media links.</p>
+
+  <hr>
+
+  <h2>📁 Files</h2>
+  <ul>
+    <li><code>index.html</code> — main page structure and text.</li>
+    <li><code>styles.css</code> — styling (colors, fonts, layout).</li>
+    <li><code>images/</code> — folder with your profile picture and social icons.</li>
+  </ul>
+
+  <hr>
+
+  <h2>🛠️ How to Edit</h2>
+
+  <h3>1. Change Text</h3>
+  <p>Open <code>index.html</code> and edit inside the section with class <code>maininformation</code>:</p>
+  <ul>
+    <li><strong>Name:</strong> Edit the text inside the <code>&lt;h3&gt;</code> tag.</li>
+    <li><strong>Job title:</strong> Edit the first <code>&lt;p&gt;</code> under the name.</li>
+    <li><strong>Skills:</strong> Edit the paragraph with class <code>p2</code>.</li>
+    <li><strong>Description:</strong> Edit the paragraph with class <code>p3</code>.</li>
+  </ul>
+
+  <h3>2. Change Profile Picture</h3>
+  <p>In <code>index.html</code>, find the <code>&lt;img&gt;</code> with class <code>profile</code>:</p>
+  <pre><code>&lt;img src="images/Zivver.jpeg" alt="" class="profile" /&gt;</code></pre>
+  <p>Replace <code>Zivver.jpeg</code> with your picture file in the <code>images/</code> folder.</p>
+
+  <h3>3. Change Email</h3>
+  <p>Find the <code>&lt;a&gt;</code> tag with class <code>gmail</code>:</p>
+  <pre><code>&lt;a href="https://mail.google.com/mail/?view=cm&amp;to=wvwxxii@gmail.com" class="gmail"&gt;wvwxxii@gmail.com&lt;/a&gt;</code></pre>
+  <p>Edit both the email link and visible email text.</p>
+
+  <h3>4. Change Social Links and Icons</h3>
+  <p>Update the links (<code>href</code>) to your social media:</p>
+  <pre><code>&lt;a href="https://github.com" target="_blank"&gt;
+  &lt;img src="images/icons8-github-logo-24.png" alt="GitHub" /&gt;
+&lt;/a&gt;</code></pre>
+  <p>Replace icon images or update the paths in <code>images/</code>.</p>
+
+  <hr>
+
+  <h2>➕ Adding More Info or Text</h2>
+  <p>To add content, open <code>index.html</code> and place new sections inside <code>&lt;section class="Container"&gt;</code>.</p>
+  <p>Then adjust dimensions in <code>styles.css</code>:</p>
+
+  <pre><code>.main {
+  width: 290px;
+  height: 420px;
+}
+
+.Container {
+  width: 250px;
+  height: 390px;
+}</code></pre>
+
+  <hr>
+
+  <h2>💡 How to Use</h2>
+  <ul>
+    <li>Keep all files in one folder.</li>
+    <li>Open <code>index.html</code> in your browser.</li>
+    <li>Make edits and refresh to view changes.</li>
+  </ul>
+
+  <hr>
+
+  <h2>🔁 Reusing the Card Only</h2>
+  <ol>
+    <li>Copy the HTML inside the <code>&lt;section class="main"&gt;</code> block.</li>
+    <li>Copy related CSS from <code>styles.css</code>:
+      <ul>
+        <li><code>.main</code>, <code>.Container</code>, <code>.profile</code></li>
+        <li><code>.maininformation</code>, <code>.gmail</code>, <code>.contact</code></li>
+      </ul>
+    </li>
+    <li>Replace or copy required images.</li>
+  </ol>
+
+  <hr>
+
+  <h2>📌 Notes</h2>
+  <ul>
+    <li>Use consistent file names.</li>
+    <li>Use optimized image sizes.</li>
+    <li>Ask the author if you need support.</li>
+  </ul>
+</body>
+</html>
